@@ -279,7 +279,7 @@ def safe_string_equals(a, b):
     return result == 0
 
 
-def to_unicode(data, encoding):
+def to_unicode(data, encoding='utf-8'):
     """Convert a number of different types of objects to unicode."""
     if isinstance(data, unicode_type):
         return data
